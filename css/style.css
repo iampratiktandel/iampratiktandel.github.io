@@ -123,7 +123,8 @@ header #navbar {
   background-color: var(--blue);
 }
 
-#projects h2 {
+#projects h2,
+.portfolio h2 {
   font-size: 2.3rem;
   text-align: center;
   padding-top: 3rem;
@@ -192,6 +193,24 @@ header #navbar {
     width: 30%;
   }
 }
+
+.view-all-section {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.view-all-btn {
+  color: var(--gray);
+  background-color: var(--coffee);
+  padding: 10px;
+}
+
+.view-all-btn:hover {
+  color: var(--coffee);
+  background-color: var(--gray);
+  transition: all 0.5s ease-in;
+}
+
 /* Projects */
 
 
@@ -257,5 +276,15 @@ footer {
 
 .contact-btn:hover {
   transform: translateY(5px);
+  transition: all 0.3s ease-out;
 }
 /* /Footer */
+
+
+
+/* PORTFOLIO */
+.portfolio {
+  padding-top: 90px;
+  background-color: var(--blue);
+}
+/* PORTFOLIO */
