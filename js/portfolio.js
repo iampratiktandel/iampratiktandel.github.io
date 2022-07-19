@@ -75,10 +75,22 @@ const jsProjects = [
 
 const angularProjects = [
   {
+    link: 'https://tic-tac-toe-iampratiktandel.vercel.app/',
+    src: './img/tic-tac-toe-angular-app.jpg',
+    alt: 'Tic Tac Toe angular app developed by Pratik Tandel',
+    name: 'Tic Tac Toe'
+  },
+  {
     link: 'https://todo-angular-app.vercel.app/',
     src: './img//todo-angular-app.jpg',
     alt: 'ToDo angular app developed by Pratik Tandel',
     name: 'To Do'
+  },
+  {
+    link: 'https://web-api-angular.vercel.app/',
+    src: './img/web-api-angular-app.jpg',
+    alt: 'Web Api angular app developed by Pratik Tandel',
+    name: 'Web Api'
   }
 ];
 
